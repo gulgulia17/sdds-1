@@ -15663,7 +15663,7 @@ h4.search-pop-text-w3 {
   z-index: 0;
   position: relative;
   min-height: 800px;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
 }
