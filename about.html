@@ -29,7 +29,7 @@ Author URL: http://w3layouts.com
 
   <body>
     <!--header-->
-    <header id="site-header" class="fixed-top">
+    <header id="site-header" class="fixed-top nav-fixed">
       <div class="container">
         <nav class="navbar navbar-expand-lg stroke">
           <!-- <h1>
@@ -76,12 +76,12 @@ Author URL: http://w3layouts.com
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               <!-- search button -->
-              <div class="search-right">
+              <!-- <div class="search-right">
                 <a href="#search" class="btn" title="search"
                   ><span class="fa fa-search" aria-hidden="true"></span
-                ></a>
+                ></a> -->
                 <!-- search popup -->
-                <div id="search" class="pop-overlay">
+                <!-- <div id="search" class="pop-overlay">
                   <div class="popup">
                     <h4 class="search-pop-text-w3 text-white text-center mb-4">
                       Search Now
@@ -110,7 +110,7 @@ Author URL: http://w3layouts.com
                     </form>
                   </div>
                   <a class="close" href="#close">×</a>
-                </div>
+                </div> -->
                 <!-- //search popup -->
               </div>
               <!-- //search button -->
@@ -252,7 +252,7 @@ Author URL: http://w3layouts.com
 
     <!-- image with content section -->
     <section class="w3l-image-content">
-      <div class="row no-gutters align-items-center">
+      <div class="row no-gutters align-items-center container">
         <div class="col-md-7 img-content-1">
           <img src="assets/images/image.jpg" class="img-fluid" alt="" />
         </div>
@@ -297,7 +297,7 @@ Author URL: http://w3layouts.com
                 />
                 <div class="customer-info">
                   <h6>Ram Sharma</h6>
-                  <small class="mb-0">Small Business Owner</small>
+                  <small class="mb-0">ecommerce, Jaipur</small>
                 </div>
               </div>
             </div>
@@ -320,7 +320,7 @@ Author URL: http://w3layouts.com
                 />
                 <div class="customer-info">
                   <h6>Deepak Acharya</h6>
-                  <small class="mb-0">Co-founder of Company</small>
+                  <small class="mb-0">Businessman, Delhi</small>
                 </div>
               </div>
             </div>
@@ -343,7 +343,7 @@ Author URL: http://w3layouts.com
                 />
                 <div class="customer-info">
                   <h6>Aniket Gahlot</h6>
-                  <small class="mb-0">Team Leader</small>
+                  <small class="mb-0">Small Business Owner, Punjab</small>
                 </div>
               </div>
             </div>
@@ -393,7 +393,7 @@ Author URL: http://w3layouts.com
                 </li>
                 <li class="d-flex align-items-center py-2">
                   <i class="fa fa-envelope mr-2" aria-hidden="true"></i
-                  ><a href="mailto:info@example.com">sddsspl@gmail.com</a>
+                  ><a href="mailto:customer.care@sddspl.com">customer.care@sddspl.com</a>
                 </li>
               </ul>
             </div>
@@ -552,11 +552,11 @@ Author URL: http://w3layouts.com
       $(window).on("scroll", function () {
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 80) {
-          $("#site-header").addClass("nav-fixed");
-        } else {
-          $("#site-header").removeClass("nav-fixed");
-        }
+        // if (scroll >= 80) {
+        //   $("#site-header").addClass("nav-fixed");
+        // } else {
+        //   $("#site-header").removeClass("nav-fixed");
+        // }
       });
 
       //Main navigation Active Class Add Remove
