@@ -24,6 +24,15 @@ Author URL: http://w3layouts.com
       .navbar .navbar-brand img {
         max-width: 100px;
       }
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        padding-top: 10px;
+      }
     </style>
   </head>
 
@@ -33,10 +42,10 @@ Author URL: http://w3layouts.com
       <div class="container">
         <nav class="navbar navbar-expand-lg stroke">
           <!-- <h1>
-                <a class="navbar-brand" href="index.html"
-                  ><img src="./assets/images/sddslogo.png"
-                /></a>
-              </h1> -->
+              <a class="navbar-brand" href="index.html"
+                ><img src="./assets/images/sddslogo.png"
+              /></a>
+            </h1> -->
           <!-- if logo is image enable this   -->
           <a class="navbar-brand" href="index.html">
             <img
@@ -61,9 +70,9 @@ Author URL: http://w3layouts.com
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html"
-                  >Home </a
+                  >Home <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
@@ -72,16 +81,15 @@ Author URL: http://w3layouts.com
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               <!-- search button -->
               <!-- <div class="search-right">
                 <a href="#search" class="btn" title="search"
                   ><span class="fa fa-search" aria-hidden="true"></span
-                ></a> -->
-                <!-- search popup -->
-                <!-- <div id="search" class="pop-overlay">
+                ></a>
+                  <div id="search" class="pop-overlay">
                   <div class="popup">
                     <h4 class="search-pop-text-w3 text-white text-center mb-4">
                       Search Now
@@ -110,9 +118,9 @@ Author URL: http://w3layouts.com
                     </form>
                   </div>
                   <a class="close" href="#close">×</a>
-                </div> -->
-                <!-- //search popup -->
-              </div>
+                </div>
+                
+              </div> -->
               <!-- //search button -->
             </ul>
           </div>
@@ -129,13 +137,13 @@ Author URL: http://w3layouts.com
       <section class="w3l-breadcrumb">
         <div class="container">
           <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">
-            Contact Us
+            Terms and Conditions
           </h4>
           <ul class="breadcrumbs-custom-path">
             <li><a href="index.html">Home</a></li>
             <li class="active">
-              <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>
-              Contact Us
+              <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span
+              >Terms and Conditions
             </li>
           </ul>
         </div>
@@ -143,119 +151,63 @@ Author URL: http://w3layouts.com
     </div>
     <!-- //inner banner -->
 
-    <!-- contact page -->
-    <div class="contact-form py-5">
-      <div class="container py-lg-5 py-4">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="section-heading text-center mb-sm-5 mb-4">
-              <h3 class="title-style mb-2">Contact Us</h3>
-              <p class="lead">
-                We value your feedback and inquiries. Please don't hesitate to
-                reach out to us via the following channels:
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="mx-auto" style="max-width: 1100px">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="contact-address p-3">
-                <div class="contact-icon d-flex align-items-center">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <div class="ml-3">
-                    <h5 class="contact-text">Visit Us:</h5>
-                    <p>Badri Vishal Nagar, Bikaner, Rajasthan - 334004</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-              <div class="contact-address p-4">
-                <div class="contact-icon d-flex align-items-center">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <div class="ml-3 pb-3">
-                    <h5 class="contact-text">Call Us:</h5>
-                    <a href="tel:91 9773313177">+91 9773313177</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
-              <div class="contact-address p-4">
-                <div class="contact-icon d-flex align-items-center">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <div class="ml-3 pb-3">
-                    <h5 class="contact-text">Mail Us:</h5>
-                    <a href="mailto:customer.care@sddspl.com">customer.care@sddspl.com</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="contact-form pt-5 mt-2">
-            <form action="#" method="post" class="cont-form p-sm-5">
-              <div class="row">
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    name="w3lName"
-                    id="w3lName"
-                    placeholder="Your Name"
-                    class="contact-input"
-                  />
-                  <input
-                    type="text"
-                    name="w3lPhone"
-                    id="w3lPhone"
-                    placeholder="Phone Number"
-                    class="contact-input"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="email"
-                    name="w3lSender"
-                    id="w3lSender"
-                    placeholder="Your Email id"
-                    class="contact-input"
-                    required
-                  />
-                  <input
-                    type="text"
-                    name="w3lSubject"
-                    id="w3lSubject"
-                    placeholder="Subject"
-                    class="contact-input"
-                  />
-                </div>
-              </div>
-              <textarea
-                class="contact-textarea"
-                name="w3lMessage"
-                id="w3lMessage"
-                placeholder="Type your message here"
-                required
-              ></textarea>
-              <div class="text-right">
-                <button class="btn btn-style-white btn-style-primary">
-                  Submit Now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+    <!-- about section -->
+    <!-- //about section -->
+
+    <!-- about-2 section -->
+    <section class="w3l-about-2 pb-5">
+      <div class="container pb-md-5 pb-4 p-4">
+        <h1 class="pb-4">Terms and Conditions</h1>
+        <p>
+          <h4> Acceptance of Terms & Conditions </h4>
+
+          <p>Please read all the terms and conditions carefully before using this site. By accessing and using this site, you agree to these terms and conditions. You are prohibited from using the website for any purposes that are illegal or prohibited by these terms and conditions. If you do not agree to these terms, you should immediately stop accessing this site. Sddspl reserves the right to change, modify, or update these terms and conditions as it sees fit, and any changes will be automatically binding on you.</p>
+
+          <h4>License to Use Website</h4>
+
+          <p>Unless otherwise stated, Sddspl and/or its licensors own the intellectual property rights and content of this website. Subject to the license provided below, all rights are reserved. You may download or view website pages for caching purposes and print pages or other content for your personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.</p>
+
+<h4>You Must Not:</h4>
+
+<p>Rent, sell, or sub-license material from the website.
+Republish content from this website (including republication on other sites).
+Duplicate, copy, reproduce, or exploit the content on the website for commercial purposes.
+Display any service or content from the website as your own to the public.
+Redistribute content from the website (except for content specifically made available for redistribution).
+Modify or edit any content on the website. When content is made available for redistribution, ensure it is limited to your organization.</p>
+
+<h4>Permitted Use</h4>
+
+<p>You agree that you are only authorized to view or visit pages of the site for your personal needs and that you shall not publish, duplicate, modify, or distribute the content of this website for any purpose other than as stated herein. Any content posted by Sddspl on this website is the property of Sddspl and is protected by Indian copyright laws. You agree not to obscure, remove, or alter any legal notices displayed on the site. You agree not to use this site in any way that exploits the terms and conditions or infringes on the rights of any person, including but not limited to privacy rights, intellectual property rights, or personality rights; in connection with or to promote any services, materials, or products; or to post any content that disparages or diminishes any entity or person.</p>
+
+<p>Sddspl is committed to respecting and protecting your privacy. We will always ensure appropriate and reasonable measures to prevent any unauthorized access or disclosure of your personal information. By accessing our services or site, you acknowledge and agree that our privacy policies apply to all services provided by us and to the website, excluding services and sites advertised on this website.</p>
+
+<h4>Your Personal Information</h4>
+
+<p>Personal Data or Personal Information means any information about an individual that can be used to identify that person. It does not include data where the identity has been removed.</p>
+
+<h4>How We Use Your Personal Data</h4>
+
+<h5>We collect and use your personal data to manage your account. The most common uses of your data are to:</h5>
+
+<p>Personalize the website according to your needs.
+Enable access to our services.
+Provide services that you have subscribed to, such as industry insights, newsletters, or event announcements.
+Perform contracts that our team is about to enter or has already entered into with you.
+Ensure our legitimate interests, provided that your interests and fundamental rights do not override those interests.
+Comply with regulatory or legal obligations.</p>
+        </p>
       </div>
-    </div>
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.8866824254774!2d73.29670017616115!3d28.0279390760003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fdd3c8387dce1%3A0xe94ff0edadbb3764!2sSHRI%20DARIYAV%20DOORSTEP%20SERVICES%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1710574116615!5m2!1sen!2sin" 
-        frameborder="0"
-        style="border: 0"
-        allowfullscreen=""
-      ></iframe>
-    </div>
-    <!-- //contact page -->
+    </section>
+    <!-- //about-2 section -->
+
+    <!-- team section -->
+
+    <!-- //team setion -->
+
+    <!-- image with content section -->
+
+    <!-- //customers section -->
 
     <!-- footer -->
     <section class="w3l-footer-29-main">
@@ -297,7 +249,9 @@ Author URL: http://w3layouts.com
                 </li>
                 <li class="d-flex align-items-center py-2">
                   <i class="fa fa-envelope mr-2" aria-hidden="true"></i
-                  ><a href="mailto:customer.care@sddspl.com">customer.care@sddspl.com</a>
+                  ><a href="mailto:customer.care@sddspl.com"
+                    >customer.care@sddspl.com</a
+                  >
                 </li>
               </ul>
             </div>
@@ -412,6 +366,45 @@ Author URL: http://w3layouts.com
     </script>
     <!-- //theme switch js (light and dark)-->
 
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".popup-with-zoom-anim").magnificPopup({
+          type: "inline",
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: "auto",
+
+          closeBtnInside: true,
+          preloader: false,
+
+          midClick: true,
+          removalDelay: 300,
+          mainClass: "my-mfp-zoom-in",
+        });
+
+        $(".popup-with-move-anim").magnificPopup({
+          type: "inline",
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: "auto",
+
+          closeBtnInside: true,
+          preloader: false,
+
+          midClick: true,
+          removalDelay: 300,
+          mainClass: "my-mfp-slide-bottom",
+        });
+      });
+    </script>
+    <!-- //magnific popup -->
+
     <!-- MENU-JS -->
     <script>
       $(window).on("scroll", function () {
@@ -441,6 +434,34 @@ Author URL: http://w3layouts.com
     </script>
     <!-- //MENU-JS -->
 
+    <!-- for testimonials carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          loop: true,
+          margin: 20,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true,
+            },
+            600: {
+              items: 1,
+              nav: false,
+            },
+            1000: {
+              items: 1,
+              nav: true,
+              loop: true,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- //for testimonials carousel -->
+
     <!-- disable body scroll which navbar is in active -->
     <script>
       $(function () {
@@ -450,6 +471,10 @@ Author URL: http://w3layouts.com
       });
     </script>
     <!-- //disable body scroll which navbar is in active -->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
 
     <!--bootstrap-->
     <script src="assets/js/bootstrap.min.js"></script>

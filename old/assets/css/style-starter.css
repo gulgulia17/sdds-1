@@ -472,7 +472,7 @@ h6,
 }
 
 .lead {
-  font-size: 1.0rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -15782,7 +15782,6 @@ h4.heading-styles i {
   margin-bottom: 30px;
   border-radius: 4px;
   transition: all 0.3s ease-in;
-  height: 300px;
 }
 
 .services-single:hover,
